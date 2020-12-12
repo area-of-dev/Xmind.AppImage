@@ -38,5 +38,6 @@ all: clean
 
 clean:
 	rm -rf $(PWD)/build
+	rm -rf $(PWD)/*.AppImage
 
 
